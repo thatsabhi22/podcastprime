@@ -1,4 +1,4 @@
-package com.fabirt.podcastapp.ui.theme
+package com.app.pro.podcastprime.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

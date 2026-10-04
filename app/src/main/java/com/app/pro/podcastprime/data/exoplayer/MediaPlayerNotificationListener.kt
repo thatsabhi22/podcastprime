@@ -1,10 +1,10 @@
-package com.fabirt.podcastapp.data.exoplayer
+package com.app.pro.podcastprime.data.exoplayer
 
 import android.app.Notification
 import android.content.Intent
 import androidx.core.content.ContextCompat
-import com.fabirt.podcastapp.constant.K
-import com.fabirt.podcastapp.data.service.MediaPlayerService
+import com.app.pro.podcastprime.constant.K
+import com.app.pro.podcastprime.data.service.MediaPlayerService
 import com.google.android.exoplayer2.ui.PlayerNotificationManager
 
 class MediaPlayerNotificationListener(

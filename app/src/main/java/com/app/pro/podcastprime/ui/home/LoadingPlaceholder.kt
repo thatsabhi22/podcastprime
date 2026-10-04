@@ -10,7 +10,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.unit.dp
-import com.fabirt.podcastapp.ui.common.StaggeredVerticalGrid
+import com.app.pro.podcastprime.ui.common.StaggeredVerticalGrid
 
 @Composable
 fun LoadingPlaceholder() {
