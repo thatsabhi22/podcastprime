@@ -2,7 +2,6 @@ package com.app.pro.podcastprime.ui.podcast
 
 import androidx.annotation.DrawableRes
 import androidx.compose.animation.AnimatedVisibility
-import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -39,7 +38,6 @@ import com.google.accompanist.coil.rememberCoilPainter
 import com.google.accompanist.insets.navigationBarsPadding
 import kotlin.math.roundToInt
 
-@OptIn(ExperimentalAnimationApi::class)
 @Composable
 fun PodcastBottomBar(
     modifier: Modifier = Modifier
