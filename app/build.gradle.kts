@@ -1,6 +1,5 @@
 plugins {
     alias(libs.plugins.android.application)
-    id("kotlin-android")
     id("com.google.dagger.hilt.android") version "2.60.1" apply false
     id("com.google.devtools.ksp")
 }
