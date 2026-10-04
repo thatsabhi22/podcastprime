@@ -65,8 +65,19 @@ dependencies {
 
     // Hilt core dependencies
     implementation(libs.hilt.android)
-
-    // Replace kapt() with ksp()
     ksp(libs.hilt.compiler)
+    implementation (libs.androidx.hilt.lifecycle.viewmodel)
+    ksp(libs.androidx.hilt.compiler)
+
+    // Retrofit
+    implementation(libs.retrofit2.retrofit)
+    implementation(libs.converter.gson)
+
+    // ExoPlayer
+    implementation(libs.exoplayer)
+    implementation(libs.extension.mediasession)
+
+    // Glide image loading
+    implementation(libs.glide)
 
 }
