@@ -1,6 +1,5 @@
 package com.app.pro.podcastprime.data.network.client
 
-import com.app.pro.podcastprime.BuildConfig
 import com.app.pro.podcastprime.data.network.constant.ListenNotesAPI
 import com.app.pro.podcastprime.data.network.service.PodcastService
 import okhttp3.Interceptor
