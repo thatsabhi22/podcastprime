@@ -80,4 +80,8 @@ dependencies {
     // Glide image loading
     implementation(libs.glide)
 
+    // Palette API - Selecting colors
+    // implementation 'com.android.support:palette-v7:28.0.0'
+    implementation(libs.androidx.palette.ktx)
+
 }
