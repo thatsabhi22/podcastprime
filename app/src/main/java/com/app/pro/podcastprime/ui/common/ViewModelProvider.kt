@@ -1,12 +1,12 @@
-package com.fabirt.podcastapp.ui.common
+package com.app.pro.podcastprime.ui.common
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.fabirt.podcastapp.ui.viewmodel.PodcastDetailViewModel
-import com.fabirt.podcastapp.ui.viewmodel.PodcastPlayerViewModel
-import com.fabirt.podcastapp.ui.viewmodel.PodcastSearchViewModel
+import com.app.pro.podcastprime.ui.viewmodel.PodcastDetailViewModel
+import com.app.pro.podcastprime.ui.viewmodel.PodcastPlayerViewModel
+import com.app.pro.podcastprime.ui.viewmodel.PodcastSearchViewModel
 
 object ViewModelProvider {
     val podcastSearch: PodcastSearchViewModel

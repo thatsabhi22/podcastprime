@@ -1,4 +1,4 @@
-package com.fabirt.podcastapp.ui.common
+package com.app.pro.podcastprime.ui.common
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
