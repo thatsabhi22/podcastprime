@@ -1,6 +1,8 @@
 plugins {
     alias(libs.plugins.android.application)
+    id("kotlin-android")
     id("com.google.dagger.hilt.android") version "2.60.1" apply false
+    id("com.google.devtools.ksp")
 }
 
 android {
@@ -61,5 +63,11 @@ dependencies {
     // Compose Accompanist
     implementation(libs.accompanist.insets)
     implementation(libs.accompanist.coil)
+
+    // Hilt core dependencies
+    implementation(libs.hilt.android)
+
+    // Replace kapt() with ksp()
+    ksp(libs.hilt.compiler)
 
 }

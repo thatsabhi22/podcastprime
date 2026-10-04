@@ -2,5 +2,6 @@
 // options common to all sub-projects/modules.
 plugins {
     alias(libs.plugins.android.application) apply false
-    kotlin("kapt") version "2.4.20"
+    id("com.google.dagger.hilt.android") version "2.60.1" apply false
+    id("com.google.devtools.ksp") version "2.3.4" apply false
 }
