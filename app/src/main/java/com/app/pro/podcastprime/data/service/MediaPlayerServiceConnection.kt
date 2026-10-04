@@ -1,4 +1,4 @@
-package com.fabirt.podcastapp.data.service
+package com.app.pro.podcastprime.data.service
 
 import android.content.ComponentName
 import android.content.Context
@@ -7,10 +7,10 @@ import android.support.v4.media.MediaMetadataCompat
 import android.support.v4.media.session.MediaControllerCompat
 import android.support.v4.media.session.PlaybackStateCompat
 import androidx.compose.runtime.mutableStateOf
-import com.fabirt.podcastapp.constant.K
-import com.fabirt.podcastapp.data.exoplayer.PodcastMediaSource
-import com.fabirt.podcastapp.domain.model.Episode
-import com.fabirt.podcastapp.util.currentPosition
+import com.app.pro.podcastprime.constant.K
+import com.app.pro.podcastprime.data.exoplayer.PodcastMediaSource
+import com.app.pro.podcastprime.domain.model.Episode
+import com.app.pro.podcastprime.util.currentPosition
 
 class MediaPlayerServiceConnection(
     context: Context,
