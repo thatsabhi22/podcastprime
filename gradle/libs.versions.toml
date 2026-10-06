@@ -1,6 +1,7 @@
 [versions]
 accompanistInsets = "0.30.1"
 agp = "9.4.1"
+coilCompose = "2.7.0"
 converterGson = "3.0.0"
 coreKtx = "1.19.1"
 exoplayer = "2.16.0"
@@ -38,6 +39,7 @@ androidx-palette-ktx = { module = "androidx.palette:palette-ktx", version.ref = 
 androidx-ui = { module = "androidx.compose.ui:ui", version.ref = "ui" }
 androidx-ui-test-junit4 = { module = "androidx.compose.ui:ui-test-junit4", version.ref = "ui" }
 androidx-ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "ui" }
+coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coilCompose" }
 converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
 exoplayer = { module = "com.google.android.exoplayer:exoplayer", version.ref = "exoplayer" }
 extension-mediasession = { module = "com.google.android.exoplayer:extension-mediasession", version.ref = "exoplayer" }
