@@ -34,7 +34,7 @@ import com.app.pro.podcastprime.domain.model.Episode
 import com.app.pro.podcastprime.domain.model.Podcast
 import com.app.pro.podcastprime.ui.common.PreviewContent
 import com.app.pro.podcastprime.ui.common.ViewModelProvider
-import com.google.accompanist.coil.rememberCoilPainter
+import coil.compose.rememberAsyncImagePainter
 import com.google.accompanist.insets.navigationBarsPadding
 import kotlin.math.roundToInt
 
@@ -125,7 +125,7 @@ fun PodcastBottomBarStatelessContent(
             verticalAlignment = Alignment.CenterVertically
         ) {
             Image(
-                painter = rememberCoilPainter(episode.thumbnail),
+                painter = rememberAsyncImagePainter(episode.thumbnail),
                 contentDescription = stringResource(R.string.podcast_thumbnail),
                 contentScale = ContentScale.Crop,
                 modifier = Modifier.size(64.dp),

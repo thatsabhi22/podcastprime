@@ -41,7 +41,7 @@ import com.app.pro.podcastprime.ui.common.EmphasisText
 import com.app.pro.podcastprime.ui.common.IconButton
 import com.app.pro.podcastprime.ui.common.PreviewContent
 import com.app.pro.podcastprime.ui.common.ViewModelProvider
-import com.google.accompanist.coil.rememberCoilPainter
+import coil.compose.rememberAsyncImagePainter
 import com.google.accompanist.insets.systemBarsPadding
 import kotlin.math.roundToInt
 
@@ -99,7 +99,7 @@ fun PodcastPlayerBody(episode: Episode, backDispatcher: OnBackPressedDispatcher)
         }
         .build()
 
-    val imagePainter = rememberCoilPainter(request = imageRequest)
+    val imagePainter = rememberAsyncImagePainter(model = imageRequest)
 
     val iconResId =
         if (podcastPlayer.podcastIsPlaying) R.drawable.ic_round_pause else R.drawable.ic_round_play_arrow

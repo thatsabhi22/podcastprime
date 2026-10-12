@@ -17,8 +17,8 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.app.pro.podcastprime.R
-import com.google.accompanist.coil.rememberCoilPainter
-import com.google.accompanist.imageloading.ImageLoadState
+import coil.compose.AsyncImagePainter
+import coil.compose.rememberAsyncImagePainter
 
 @Composable
 fun PodcastImage(
@@ -26,7 +26,7 @@ fun PodcastImage(
     modifier: Modifier = Modifier,
     aspectRatio: Float = 1f,
 ) {
-    val imagePainter = rememberCoilPainter(url)
+    val imagePainter = rememberAsyncImagePainter(url)
 
     Box(
         modifier
@@ -40,8 +40,8 @@ fun PodcastImage(
             contentScale = ContentScale.Crop,
             modifier = Modifier.fillMaxSize(),
         )
-        when (imagePainter.loadState) {
-            is ImageLoadState.Success -> {
+        when (imagePainter.state) {
+            is AsyncImagePainter.State.Success -> {
                 // Remove placeholder
             }
             else -> {

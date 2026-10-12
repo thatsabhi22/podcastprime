@@ -11,7 +11,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.unit.dp
 import com.app.pro.podcastprime.domain.model.Episode
-import com.app.pro.podcastprime.podcast.PodcastImage
+import com.app.pro.podcastprime.ui.podcast.PodcastImage
 
 @Composable
 fun PodcastView(
