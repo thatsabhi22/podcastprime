@@ -4,7 +4,8 @@ agp = "9.4.1"
 coilCompose = "2.7.0"
 converterGson = "3.0.0"
 coreKtx = "1.19.1"
-exoplayer = "2.16.0"
+datastorePreferences = "1.2.1"
+exoplayer = "2.14.1"
 glide = "5.0.9"
 hiltAndroid = "2.60.1"
 hiltLifecycleViewmodel = "1.4.0"
@@ -29,6 +30,7 @@ accompanist-coil = { module = "com.google.accompanist:accompanist-coil", version
 accompanist-insets = { module = "com.google.accompanist:accompanist-insets", version.ref = "accompanistInsets" }
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activityKtx" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-datastore-preferences = { module = "androidx.datastore:datastore-preferences", version.ref = "datastorePreferences" }
 androidx-hilt-compiler = { module = "androidx.hilt:hilt-compiler", version.ref = "hiltLifecycleViewmodel" }
 androidx-hilt-lifecycle-viewmodel = { module = "androidx.hilt:hilt-lifecycle-viewmodel", version.ref = "hiltLifecycleViewmodel" }
 androidx-lifecycle-runtime-ktx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }

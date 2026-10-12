@@ -3,9 +3,9 @@ import java.util.Properties
 
 plugins {
     alias(libs.plugins.android.application)
-    id("com.google.dagger.hilt.android") version "2.60.1" apply false
     id("com.google.devtools.ksp")
-    id ("org.jetbrains.kotlin.plugin.compose")
+    id("org.jetbrains.kotlin.plugin.compose")
+    id("com.google.dagger.hilt.android")
 }
 
 android {
@@ -105,6 +105,9 @@ dependencies {
 
     // Glide image loading
     implementation(libs.glide)
+
+    // DataStore
+    implementation(libs.androidx.datastore.preferences)
 
     // Palette API - Selecting colors
     // implementation 'com.android.support:palette-v7:28.0.0'
