@@ -92,11 +92,14 @@ fun PodcastPlayerBody(episode: Episode, backDispatcher: OnBackPressedDispatcher)
 
     val imageRequest = ImageRequest.Builder(LocalContext.current)
         .data(episode.image)
-        .target {
-            podcastPlayer.calculateColorPalette(it) { color ->
-                gradientColor = color
+        .allowHardware(false)
+        .listener(
+            onSuccess = { _, result ->
+                podcastPlayer.calculateColorPalette(result.drawable) { color ->
+                    gradientColor = color
+                }
             }
-        }
+        )
         .build()
 
     val imagePainter = rememberAsyncImagePainter(model = imageRequest)
