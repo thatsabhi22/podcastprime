@@ -36,3 +36,9 @@ The project uses the following Android libraries and components:
 
 The application follows the **MVVM (Model–View–ViewModel)** architectural pattern, with Hilt managing dependency injection.
 
+## Screenshots
+
+| Welcome                                                  | Home                                                        | Podcast Details                                                    | Audio Player                                                    |
+|----------------------------------------------------------|-------------------------------------------------------------|--------------------------------------------------------------------|-----------------------------------------------------------------|
+| ![Welcome screen in light theme](screenshots/splash.jpg) | ![Home screen in light theme](screenshots/podcast_list.png) | ![Podcast details in light theme](screenshots/podcast_details.png) | ![Audio player in light theme](screenshots/podcast_playing.png) |
+
