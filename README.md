@@ -40,5 +40,5 @@ The application follows the **MVVM (Model–View–ViewModel)** architectural pa
 
 | Welcome                                                  | Home                                                        | Podcast Details                                                    | Audio Player                                                    |
 |----------------------------------------------------------|-------------------------------------------------------------|--------------------------------------------------------------------|-----------------------------------------------------------------|
-| ![Welcome screen in light theme](screenshots/splash.jpg) | ![Home screen in light theme](screenshots/podcast_list.png) | ![Podcast details in light theme](screenshots/podcast_details.png) | ![Audio player in light theme](screenshots/podcast_playing.png) |
+| ![Welcome screen in light theme](screenshots/splash.jpg) | ![Home screen in light theme](screenshots/podcast_list.jpg) | ![Podcast details in light theme](screenshots/podcast_details.jpg) | ![Audio player in light theme](screenshots/podcast_playing.jpg) |
 
